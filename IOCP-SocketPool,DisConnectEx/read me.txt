@@ -1,0 +1,11 @@
+* IOCP에 Socket pool, 비동기 함수 DisconnectEx을 간단하게 구현한 프로젝트입니다.
+
+* 현재 Disconnect 로그가 가끔 안 나오거든 Disconnnect 관련 버그가 있습니다.
+
+* Clinet는 Server의 헤더 파일을 공유합니다.
+
+* 기본 루프 백(127. 0. 0. 1)과 PORT(9000)이며 네트워크를 통한 테스트는 진행하지 않았습니다.
+
+* TCP환경에서 발생할 수 있는 패킷 수신은 고려하지 않고 진행했습니다.
+
+* 더 자세한 프로젝트의 설명은 https://snowfleur.tistory.com/124 에 있습니다.
